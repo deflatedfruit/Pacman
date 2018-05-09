@@ -2,7 +2,7 @@ from turtle import *
 from tkinter import *
 from time import sleep
 
-root = Tk();root.title("You're welcome")
+root = Tk()
 canv = Canvas(root,width=500,height=500)
 screen = TurtleScreen(canv)
 canv.grid(row=0,column=0)
