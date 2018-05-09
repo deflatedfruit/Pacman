@@ -1,6 +1,7 @@
+# The basic version to clone and modify
+
 from turtle import *
 from tkinter import *
-from time import sleep
 
 root = Tk()
 canv = Canvas(root,width=500,height=500)
